@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: black;
+  padding: 20px 0;
+}
+section {
+  padding: 70px 0;
+}
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.section-r {
+  width: 45%;
+}
+
+.section-l {
+  width: 45%;
+}
+
+#bg-section {
+  background-image: url(../image/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+  background-size: 100%;
+  background-position: center;
+  color: white;
+}
+a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #78baf6;
+}
+/*classes e objetos*/
+
+.box {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.header-nav ul {
+  height: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+figure img {
+  width: 200px;
+}
+.section-left {
+  width: 45%;
+}
+.section-right {
+  width: 45%;
+  border-radius: 18px;
+}
+
+.section-agende {
+  width: 45%;
+}
+
+input,
+select,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-style: italic;
+  color: #c4c4c4;
+  border: 1px solid #c4c4c4;
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 35px 0;
+  font-size: 12px;
+}
+
+button {
+  background-color: #78baf6;
+  border: 1px solid #bcd4e2;
+  padding: 10px;
+  width: 250px;
+  color: black;
+  font-weight: bold;
+}
+/* css responsivo */
+
+@media screen and (max-width: 1150px) {
+  body {
+    background-color: olive;
+  }
+  .box {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: Yellow;
+  }
+}

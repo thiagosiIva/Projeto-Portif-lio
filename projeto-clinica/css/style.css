@@ -1,0 +1,103 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Rokkitt', serif;
+}
+h1{
+	color: #97D729;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+}
+h3{
+	font-size: 36px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+section{
+	padding: 60px 0;
+}
+footer{
+	background-color: #c4c4c4;
+	margin-top: 40px;
+	padding: 25px 0;
+	font-size: 12px;
+}
+a:link{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+figure img {
+    width: 370px;
+}
+figcaption{
+	margin-top: 20px;
+	font-family: 'Rokkitt', serif;
+	text-align: center;
+	color: #656464;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+/* classes e ids */
+#top{
+	width: 100%;
+	background-color: #97D729;
+	padding: 10px 0;
+	font-size: 14px;
+}
+.central span{font-weight: 600;}
+.box{
+	width: 1170px;
+	margin: 0 auto;
+}
+.container-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-center li{
+	list-style: none;
+	margin: 0 15px;
+}
+.card{
+	width: 370px;
+	height: 370px;
+	border-radius: 20px;
+	margin: 0 15px;
+}
+#card-1{background-image: url("../images/img1.jpg");}
+#card-2{background-image: url("../images/img2.jpg");}
+#card-3{background-image: url("../images/img3.jpg");}
+.unidades{
+	width: 370px;
+	height: 370px;
+	margin: 25px 15px;
+}
+
+
+/* contador */
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #E7E3E3;
+  height: 190px;
+}
+
+.value {
+  font-size: 72px;
+  font-family: 'Rokkitt', serif;
+  display: block;
+  font-weight: bold;
+  color: #FB2B3A;
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+	font-family: 'Share Tech Mono', monospace;
+	text-align: center;
+	color: blueviolet;
+}
+#calc{
+	background-color: brown;
+	width: 450px;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#result{
+    background-color: gray;
+    width: 425px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+input, select, button{
+    width: 425px !important;
+    margin-top: 10px !important;
+}

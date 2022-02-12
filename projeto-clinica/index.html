@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clínica</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slide.css">
+
+	<!-- font google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Rokkitt:wght@300;400;800&display=swap" rel="stylesheet">
+
+	<!-- icon awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+	<div id="top">
+		<div class="box container-flex">
+			<div class="central">
+				<span>Central de Marcação de Consultas:</span> 71 3330-0000
+			</div>
+			<div class="social-media">
+				<ul class="flex-center">
+					<li>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-whatsapp"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="box container-flex">
+			<a href="index.html">
+				<img src="images/logo.png" alt="Logo da  Clínica">
+			</a>
+			<nav>
+				<ul class="flex-center">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="clinica.html">A Clínica</a>
+					</li>
+					<li>
+						<a href="convenios.html">Convênios</a>
+					</li>
+					<li>
+						<a href="especialidades.html">Especialidades</a>
+					</li>
+					<li>
+						<a href="contato.html">Contato</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- aqui entra o slide -->
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/slide1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/slide2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/slide3.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/slide4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/slide5.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/slide6.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/slide1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/slide2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/slide3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/slide4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/slide5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/slide6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+	<!-- aqui termina o slide -->
+
+	<!-- section acesso rápido serviços -->
+	<section>
+		<div class="flex-center box">
+			<div class="card" id="card-1">
+				<a href="#"><h3>Laboratório</h3></a>
+			</div>
+			<div class="card" id="card-2">
+				<a href="#"><h3>Resultado de <br> Exames</h3></a>
+			</div>
+			<div class="card" id="card-3">
+				<a href="#"><h3>Corpo Clínico</h3></a>
+			</div>
+		</div>	
+	</section>
+	<!-- section do contador -->
+	<section id="count">
+		<div class="content">
+		  <div class="value" akhi="50000">0</div>
+		  <div class="value" akhi="45">0</div>
+		  <div class="value" akhi="30">0</div>
+		</div>
+	</section>
+
+	<!-- section conheça unidades -->
+	<section>
+		<h1>Conheça nossas unidades</h1>
+		<div class="flex-center box">
+			<div class="unidades">
+				<figure>
+					<img src="images/unidade-1.jpg" alt="Unidade Lapa">
+					<figcaption>Unidade Lapa</figcaption>
+				</figure>
+			</div>
+			<div class="unidades">
+				<figure>
+					<img src="images/unidade-2.jpg" alt="Unidade Canela">
+					<figcaption>Unidade Canela</figcaption>
+				</figure>
+			</div>
+			<div class="unidades">
+				<figure>
+					<img src="images/unidade-3.jpg" alt="Unidade Brotas">
+					<figcaption>Unidade Brotas</figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+	
+
+	<footer>
+		<div class="box">
+			Todos os....
+		</div>
+	</footer>
+
+	<!-- aqui começa o script -->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+const counters = document.querySelectorAll('.value');
+const speed = 200;
+
+counters.forEach( counter => {
+   const animate = () => {
+      const value = +counter.getAttribute('akhi');
+      const data = +counter.innerText;
+     
+      const time = value / speed;
+     if(data < value) {
+          counter.innerText = Math.ceil(data + time);
+          setTimeout(animate, 1);
+        }else{
+          counter.innerText = value;
+        }
+     
+   }
+   
+   animate();
+});
+</script>
+
+</body>
+</html>
